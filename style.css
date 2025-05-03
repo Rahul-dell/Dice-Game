@@ -1,6 +1,6 @@
 .flag{
-    margin: 5rem 0px 0px 0px;
-    height:5rem;
+    margin: 8rem 0px 0px 0px;
+    height:7rem;
     
     padding:0px;
 }
@@ -18,7 +18,7 @@
 .container{
     display:flex;
     flex-direction:column;
-    gap : 70px;
+    gap : 30px;
     align-items: center;
     height:100vh;
 }
@@ -35,7 +35,7 @@ h3{
     color:rgb(255, 13, 0);
     font-family: cursive;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin:0px;
 }
