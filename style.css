@@ -1,6 +1,6 @@
 .flag{
-    margin: 8rem 0px 0px 0px;
-    height:7rem;
+    margin: 20px 0px 0px 0px;
+    height: 7rem;
     
     padding:0px;
 }
@@ -9,16 +9,18 @@
     display:grid;
     grid-template-rows:1fr 3fr;
     grid-template-columns: 1fr 1fr;
-    gap:50px;
+    gap:70px;
 }
  .head{
     display:flex;
     gap:10px;
+    
  }
 .container{
+    
     display:flex;
     flex-direction:column;
-    gap : 30px;
+    gap : 10px;
     align-items: center;
     height:100vh;
 }
@@ -29,7 +31,8 @@ h1{
     color:rgb(119, 0, 255);
     font-family: cursive;
     font-weight: bolder;
-    font-size: 8rem;
+    font-size: 7rem;
+    margin: 0px 0px 0px 0px;
 }
 h3{
     color:rgb(255, 13, 0);
