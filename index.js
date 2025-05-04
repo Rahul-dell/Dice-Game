@@ -1,4 +1,6 @@
-var address=["images/dice1.png", "images/dice2.png", "images/dice3.png", "images/dice4.png", "images/dice5.png", "images/dice6.png"];
+var address=["./images/dice1.png", "./images/dice2.png", "./images/dice3.png", "./images/dice4.png", "./images/dice5.png", "./images/dice6.png"];
+document.querySelector("html").addEventListener("keyup", randomDiceGenerator);
+function randomDiceGenerator(){
 var p1=Math.floor(Math.random()*6);
 var p2=Math.floor(Math.random()*6);
 if(p1>p2)
@@ -22,12 +24,7 @@ if(p1>p2)
         document.querySelectorAll("img")[1].setAttribute("src", address[p2]);
     }
 
-
-    // WRONG ADDRESS SICE IT IS TAKING ARRAY AS STRING :)document.querySelector(".player1").setAttribute("src","address[p1]");
-    
-
-
-    // WRONG ADDRESS SICE IT IS TAKING ARRAY AS STRING :)document.querySelector(".player2").setAttribute("src","address[p2]");
+}
     
 
 
