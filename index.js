@@ -1,5 +1,9 @@
 var address=["./images/dice1.png", "./images/dice2.png", "./images/dice3.png", "./images/dice4.png", "./images/dice5.png", "./images/dice6.png"];
 document.querySelector("html").addEventListener("keyup", randomDiceGenerator);
+//for clicks speacially for screen touches
+document.addEventListener("click", randomDiceGenerator );
+
+// for keys specially for keyboards operated(domianantly)
 function randomDiceGenerator(){
 var p1=Math.floor(Math.random()*6);
 var p2=Math.floor(Math.random()*6);
