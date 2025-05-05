@@ -5,6 +5,8 @@ document.addEventListener("click", randomDiceGenerator );
 
 // for keys specially for keyboards operated(domianantly)
 function randomDiceGenerator(){
+    var audio=new Audio("sounds/kick-bass.mp3");
+audio.play();
 var p1=Math.floor(Math.random()*6);
 var p2=Math.floor(Math.random()*6);
 if(p1>p2)
